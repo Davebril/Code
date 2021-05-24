@@ -1,0 +1,24 @@
+.table-color {
+    border: solid 1px #ccc; 
+    border-bottom: 0px;
+}
+
+.table-color td {
+    border-right: 1px solid #ccc;
+}
+
+.table-color td:last-child {
+    border-right: 0;
+}
+
+.table-color td {
+    border-bottom: 1px solid #ccc;
+}
+
+.table-color tbody tr {
+    background-color: white;
+}
+
+    .table-color tbody tr:nth-child(2n) {
+        background: #f2f2f2;
+    }
